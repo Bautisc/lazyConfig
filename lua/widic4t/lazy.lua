@@ -20,7 +20,7 @@ require("lazy").setup({ { import = "widic4t.plugins" }, }, {
         notify = false,
     },
     change_detection = {
-        notify = false,
+        notify = true,
     },
 })
 
