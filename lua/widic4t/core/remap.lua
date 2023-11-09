@@ -2,8 +2,10 @@ vim.g.mapleader = " "
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>cl", vim.cmd.clo)
-
--- Clean highlighted search
+-- Increment/Decrement
+vim.keymap.set('n', '+', '<C-a>')
+vim.keymap.set('n', '-', '<C-x>')
+-- Clean  highlighted search
 vim.keymap.set("n", "<leader>ch", "<cmd>:nohlsearch<CR>")
 
 -- Paste on v mode without appending the word to the clipboard history

@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({ { import = "widic4t.plugins" }, }, {
+require("lazy").setup({ { import = "widic4t.plugins" }, { import = "widic4t.plugins.lsp"} }, {
     install = {
         colorscheme = { "rose-pine" },
     },
