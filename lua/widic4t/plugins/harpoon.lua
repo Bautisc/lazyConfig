@@ -12,8 +12,8 @@ config = function()
     vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
     -- Navegar en ciclo
 
-    vim.keymap.set("n", "<C-,>", function() ui.nav_next() end)
-    vim.keymap.set("n", "<C-.>", function() ui.nav_prev() end)
+    vim.keymap.set("n", "<M-,>", function() ui.nav_next() end)
+    vim.keymap.set("n", "<M-.>", function() ui.nav_prev() end)
     --
     -- Navegar por num
     vim.keymap.set("n", "<C-h>", function() ui.nav_file(1) end)

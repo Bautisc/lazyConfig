@@ -24,6 +24,7 @@ return {
         })
 
         telescope.load_extension("fzf")
+        telescope.load_extension('harpoon')
         local keymap = vim.keymap -- for conciseness
 
         keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Fuzzy find files in cwd" })
