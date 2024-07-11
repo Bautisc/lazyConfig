@@ -19,7 +19,7 @@ vim.opt.backup = false
 
 vim.opt.undofile = true
 -- En windows el undodir cambia a...
-vim.o.undodir = 'C:\\Users\\Admin\\.nvim\\undodir'
+-- vim.o.undodir = 'C:\\Users\\Admin\\.nvim\\undodir'
 -- En unix el undodir cambia a... vim.opt.undodir = os.getenv("USERPROFILE") .. "/.nvim/undodir"
 
 vim.opt.hlsearch = true

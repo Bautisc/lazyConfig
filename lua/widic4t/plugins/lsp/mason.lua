@@ -34,6 +34,7 @@ return {
         "lua_ls",
         "graphql",
         "emmet_ls",
+        "yamlls",
         "pyright",
       },
       -- auto-install configured servers (with lspconfig)
